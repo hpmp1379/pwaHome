@@ -1,0 +1,11 @@
+//main만 컴파일 하기때문에
+//여러 scss 파일 import 하기
+//임포트하는 순서가 중요하다
+@import 'mixVariables.scss'; //변수/mixin를 제일 처음에
+@import 'reset.scss';
+@import 'layout.scss';
+@import 'component.scss';
+
+@import 'index.scss';
+@import 'chatList.scss';
+@import 'chat.scss';

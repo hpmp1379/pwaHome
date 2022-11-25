@@ -1,0 +1,48 @@
+{
+    "name": "내가만든 SNS",
+    "short_name": "MY SNS",
+    "background_color": "#ffffff",
+    "description": "PWA 연습용 페이지 SNS APP",
+    "dir": "auto",
+    "display": "standalone",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/",
+    "lang":"ko",
+    "theme_color": "#ffffff",
+    "gcm_sender_id":"",
+    "gcm_user_visible_only":"true",
+
+    "categories": [],
+    "screenshots": [{
+      "src":"img/main.jpg",
+      "sizes":"456x950",
+      "types":"image/jpg"
+    },{
+      "src":"img/sub1.jpg",
+      "sizes":"456x952",
+      "types":"image/jpg"
+    },{
+      "src":"img/sub2.jpg",
+      "sizes":"456x953",
+      "types":"image/jpg"
+    }],
+
+    "icons": [{
+      "src":"img/iconx512.png",
+      "sizes":"512x512",
+      "types":"image/png",
+      "purpose":"any"
+    },{
+      "src":"img/iconx128.png",
+      "sizes":"128x128",
+      "types":"image/png",
+      "purpose":"maskable"
+    },{
+      "src":"img/iconx48.png",
+      "sizes":"48x48",
+      "types":"image/png",
+      "purpose":"maskable"
+    }],
+    "shortcuts": []
+  }

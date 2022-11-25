@@ -1,0 +1,18 @@
+//sass 변수는 이름앞에 $
+$bg-color: #ebc3ff;
+$main-color: #2f184b;
+$main-light: #603199;
+$chat-self: #ffa;
+$chat-pic: #9f6bff;
+
+$gray1 : #555;
+$gray2 : #999;
+$gray3 : #ddd;
+$gray4 : #f3f3f3;
+$opacity-black : rgba(0,0,0,0.2);
+
+@mixin set-box($height, $width: 100%, $border-radius: 0){
+    height: $height;
+    width: $width;
+    border-radius: $border-radius;
+}
