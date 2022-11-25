@@ -14,7 +14,7 @@
     <script>
         // 서비스워커가 있을때 sw.js 파일을 등록한다
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('sw.js')
+            navigator.serviceWorker.register('service_worker.js')
             .then(function(success){
                 console.log("serviceworker 설치에 성공했습니다",success);
             })
